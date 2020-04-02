@@ -5,7 +5,7 @@ var data;
 // 1. Use the D3 library to read in `samples.json`.
 // Fetch the JSON data and console log it
 function jsonLoad() {
-    d3.json("static/js/data/samples.json").then(jFirst => {
+    d3.json("Plot.ly/samples.json").then(jFirst => {
       data = jFirst;
       var selVals = jFirst.names;
       console.log(data);
